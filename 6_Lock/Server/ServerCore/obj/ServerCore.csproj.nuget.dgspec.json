@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/byeukim/Desktop/Server/6_Interlocked/Server/ServerCore/ServerCore.csproj": {}
+    "/Users/byeukim/Desktop/Server/6_Lock/Server/ServerCore/ServerCore.csproj": {}
   },
   "projects": {
-    "/Users/byeukim/Desktop/Server/6_Interlocked/Server/ServerCore/ServerCore.csproj": {
+    "/Users/byeukim/Desktop/Server/6_Lock/Server/ServerCore/ServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/ServerCore/ServerCore.csproj",
+        "projectUniqueName": "/Users/byeukim/Desktop/Server/6_Lock/Server/ServerCore/ServerCore.csproj",
         "projectName": "ServerCore",
-        "projectPath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/ServerCore/ServerCore.csproj",
+        "projectPath": "/Users/byeukim/Desktop/Server/6_Lock/Server/ServerCore/ServerCore.csproj",
         "packagesPath": "/Users/byeukim/.nuget/packages/",
-        "outputPath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/ServerCore/obj/",
+        "outputPath": "/Users/byeukim/Desktop/Server/6_Lock/Server/ServerCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/byeukim/.nuget/NuGet/NuGet.Config"

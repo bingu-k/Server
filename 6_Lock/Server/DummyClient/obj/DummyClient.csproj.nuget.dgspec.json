@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/byeukim/Desktop/Server/6_Interlocked/Server/DummyClient/DummyClient.csproj": {}
+    "/Users/byeukim/Desktop/Server/6_Lock/Server/DummyClient/DummyClient.csproj": {}
   },
   "projects": {
-    "/Users/byeukim/Desktop/Server/6_Interlocked/Server/DummyClient/DummyClient.csproj": {
+    "/Users/byeukim/Desktop/Server/6_Lock/Server/DummyClient/DummyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/DummyClient/DummyClient.csproj",
+        "projectUniqueName": "/Users/byeukim/Desktop/Server/6_Lock/Server/DummyClient/DummyClient.csproj",
         "projectName": "DummyClient",
-        "projectPath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/DummyClient/DummyClient.csproj",
+        "projectPath": "/Users/byeukim/Desktop/Server/6_Lock/Server/DummyClient/DummyClient.csproj",
         "packagesPath": "/Users/byeukim/.nuget/packages/",
-        "outputPath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/DummyClient/obj/",
+        "outputPath": "/Users/byeukim/Desktop/Server/6_Lock/Server/DummyClient/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/byeukim/.nuget/NuGet/NuGet.Config"

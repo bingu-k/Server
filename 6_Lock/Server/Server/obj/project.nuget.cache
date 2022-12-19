@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5MpjBt2vU4JVkrYAdHg8iIkz+LgFY83H4qD4cvLC0kn2cI/WSN+SpYViXXlByYhsP7urvB478zymnkDzS4wRDg==",
+  "dgSpecHash": "6eyw4ui5ElWym13vdqFz1thcBG7TRcXcdsB9umpSeNWDkLsw6QLZms7BlhD4RWBXy/64ox5eVIyVxC+ckFr+RQ==",
   "success": true,
-  "projectFilePath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/Server/Server.csproj",
+  "projectFilePath": "/Users/byeukim/Desktop/Server/6_Lock/Server/Server/Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

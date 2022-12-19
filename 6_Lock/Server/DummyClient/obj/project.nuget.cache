@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sOuu6R4Z+IH004/gB9FmPTqusBO6kPHPv8kNok3W/YLkCXo4Yg+Vn4xVRoXzYNJYTBViI87ZxhOelVFPkdYR6g==",
+  "dgSpecHash": "I6XjQgzxZbqqa9Fj3+qRpDKDizBp1Voq5G9mzOmBVITLgGXUlRJswyMZ6eIw+a0gfCFFCOORxRTCmOmJn14I3Q==",
   "success": true,
-  "projectFilePath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/DummyClient/DummyClient.csproj",
+  "projectFilePath": "/Users/byeukim/Desktop/Server/6_Lock/Server/DummyClient/DummyClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

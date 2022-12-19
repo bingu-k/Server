@@ -29,7 +29,7 @@ namespace ServerCore
                 }
 
                 //Monitor.Enter(_obj);    // mutex lock
-                //Interlocked.Increment(ref number);  // 성능차이가 어마어마하다.
+                //Interlocked.Increment(ref number);  // operator와 성능차이가 어마어마하다.
                 ////++number;
                 //Monitor.Exit(_obj);     // mutex unlock
             }
@@ -43,7 +43,7 @@ namespace ServerCore
                     --number;
                 }
                 //Monitor.Enter(_obj);    // mutex lock
-                //Interlocked.Decrement(ref number);  // 성능차이가 어마어마하다.
+                //Interlocked.Decrement(ref number);  // operator와 성능차이가 어마어마하다.
                 ////--number;
                 //Monitor.Exit(_obj);     // mutex unlock
             }

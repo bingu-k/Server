@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/byeukim/Desktop/Server/6_Interlocked/Server/Server/Server.csproj": {}
+    "/Users/byeukim/Desktop/Server/6_Lock/Server/Server/Server.csproj": {}
   },
   "projects": {
-    "/Users/byeukim/Desktop/Server/6_Interlocked/Server/Server/Server.csproj": {
+    "/Users/byeukim/Desktop/Server/6_Lock/Server/Server/Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/Server/Server.csproj",
+        "projectUniqueName": "/Users/byeukim/Desktop/Server/6_Lock/Server/Server/Server.csproj",
         "projectName": "Server",
-        "projectPath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/Server/Server.csproj",
+        "projectPath": "/Users/byeukim/Desktop/Server/6_Lock/Server/Server/Server.csproj",
         "packagesPath": "/Users/byeukim/.nuget/packages/",
-        "outputPath": "/Users/byeukim/Desktop/Server/6_Interlocked/Server/Server/obj/",
+        "outputPath": "/Users/byeukim/Desktop/Server/6_Lock/Server/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/byeukim/.nuget/NuGet/NuGet.Config"
