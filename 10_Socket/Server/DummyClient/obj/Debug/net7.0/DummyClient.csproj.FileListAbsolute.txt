@@ -13,3 +13,6 @@
 /Users/byeukim/Desktop/Server/10_Socket/Server/DummyClient/obj/Debug/net7.0/DummyClient.pdb
 /Users/byeukim/Desktop/Server/10_Socket/Server/DummyClient/obj/Debug/net7.0/DummyClient.genruntimeconfig.cache
 /Users/byeukim/Desktop/Server/10_Socket/Server/DummyClient/obj/Debug/net7.0/ref/DummyClient.dll
+/Users/byeukim/Desktop/Server/10_Socket/Server/DummyClient/bin/Debug/net7.0/ServerCore.dll
+/Users/byeukim/Desktop/Server/10_Socket/Server/DummyClient/bin/Debug/net7.0/ServerCore.pdb
+/Users/byeukim/Desktop/Server/10_Socket/Server/DummyClient/obj/Debug/net7.0/DummyClient.csproj.CopyComplete
