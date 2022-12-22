@@ -1,49 +1,34 @@
 using System;
-using SystemCore;
+using ServerCore;
 using System.Collections.Generic;
 using System.Text;
 using System.Net;
 
 public enum PacketID
 {
-    PlayerInfoReq = 1,
-	Test = 2,
+    C_PlayerInfoReq = 1,
+	S_Test = 2,
 	
 }
 
-class PlayerInfoReq
+interface IPacket
+{
+	ushort Protocol { get; }
+	void Read(ArraySegment<byte> segment);
+	ArraySegment<byte> Write();
+}
+
+class C_PlayerInfoReq : IPacket
 {
     public byte testByte;
 	public long playerId;
 	public string name;
 	
-	public struct Skill
+	public class Skill
 	{
 	    public int id;
 		public short level;
 		public float duration;
-		
-		public struct Attribute
-		{
-		    public int att;
-		
-		    public void Read(ReadOnlySpan<byte> s, ref ushort count)
-		    {
-		        this.att = BitConverter.ToInt32(s.Slice(count, s.Length - count));
-				count += sizeof(int);
-		    }
-		
-		    public bool Write(Span<byte> s, ref ushort count)
-		    {
-		        bool success = true;
-		        success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), this.att);
-				count += sizeof(int);
-		        return success;
-		    }
-		}
-		
-		public List<Attribute> attributes = new List<Attribute>();
-		
 	
 	    public void Read(ReadOnlySpan<byte> s, ref ushort count)
 	    {
@@ -53,15 +38,6 @@ class PlayerInfoReq
 			count += sizeof(short);
 			this.duration = BitConverter.ToSingle(s.Slice(count, s.Length - count));
 			count += sizeof(float);
-			attributes.Clear();
-			ushort attributeLen = BitConverter.ToUInt16(s.Slice(count, s.Length - count));
-			count += sizeof(ushort);
-			for (int i = 0; i < attributeLen; ++i)
-			{
-			    Attribute attribute = new Attribute();
-			    attribute.Read(s, ref count);
-			    attributes.Add(attribute);
-			}
 	    }
 	
 	    public bool Write(Span<byte> s, ref ushort count)
@@ -73,16 +49,13 @@ class PlayerInfoReq
 			count += sizeof(short);
 			success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), this.duration);
 			count += sizeof(float);
-			success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), (ushort)this.attributes.Count);
-			count += sizeof(ushort);
-			foreach (Attribute attribute in this.attributes)
-			    success &= attribute.Write(s, ref count);
 	        return success;
 	    }
 	}
 	
 	public List<Skill> skills = new List<Skill>();
 	
+    public ushort Protocol { get { return (ushort)PacketID.C_PlayerInfoReq; } }
 
     public void Read(ArraySegment<byte> segment)
     {
@@ -121,7 +94,7 @@ class PlayerInfoReq
         Span<byte> s = new Span<byte>(segment.Array, segment.Offset, segment.Count);
 
         count += sizeof(ushort);
-        success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), (ushort)PacketID.PlayerInfoReq);
+        success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), (ushort)PacketID.C_PlayerInfoReq);
         count += sizeof(ushort);
 
         segment.Array[segment.Offset + count] = (byte)this.testByte;
@@ -144,10 +117,10 @@ class PlayerInfoReq
         return SendBufferHelper.Close(count);
     }
 }
-
-class Test
+class S_Test : IPacket
 {
     public int testInt;
+    public ushort Protocol { get { return (ushort)PacketID.S_Test; } }
 
     public void Read(ArraySegment<byte> segment)
     {
@@ -171,7 +144,7 @@ class Test
         Span<byte> s = new Span<byte>(segment.Array, segment.Offset, segment.Count);
 
         count += sizeof(ushort);
-        success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), (ushort)PacketID.Test);
+        success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), (ushort)PacketID.S_Test);
         count += sizeof(ushort);
 
         success &= BitConverter.TryWriteBytes(s.Slice(count, s.Length - count), this.testInt);
