@@ -169,3 +169,15 @@
 /Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/obj/Debug/net7.0/refint/ServerCore.dll
 /Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/obj/Debug/net7.0/ServerCore.pdb
 /Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/obj/Debug/net7.0/ref/ServerCore.dll
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\bin\Debug\net7.0\ServerCore.deps.json
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\bin\Debug\net7.0\ServerCore.dll
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\bin\Debug\net7.0\ServerCore.pdb
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.AssemblyInfo.cs
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.dll
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\refint\ServerCore.dll
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ServerCore.pdb
+C:\Users\USER\Desktop\Server\12_JobQueue\Server\ServerCore\obj\Debug\net7.0\ref\ServerCore.dll

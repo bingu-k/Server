@@ -1,84 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/byeukim/Desktop/Server/12_JobQueue/Server/Server/Server.csproj": {}
+    "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\Server\\Server.csproj": {}
   },
   "projects": {
-    "/Users/byeukim/Desktop/Server/12_JobQueue/Server/Server/Server.csproj": {
+    "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\ServerCore\\ServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/Server/Server.csproj",
-        "projectName": "Server",
-        "projectPath": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/Server/Server.csproj",
-        "packagesPath": "/Users/byeukim/.nuget/packages/",
-        "outputPath": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/Server/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/byeukim/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/ServerCore.csproj": {
-                "projectPath": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/ServerCore.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/ServerCore.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/ServerCore.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\ServerCore\\ServerCore.csproj",
         "projectName": "ServerCore",
-        "projectPath": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/ServerCore.csproj",
-        "packagesPath": "/Users/byeukim/.nuget/packages/",
-        "outputPath": "/Users/byeukim/Desktop/Server/12_JobQueue/Server/ServerCore/obj/",
+        "projectPath": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\ServerCore\\ServerCore.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\ServerCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/byeukim/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,7 +55,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\ServerCore\\ServerCore.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\Server\\12_JobQueue\\Server\\ServerCore\\ServerCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
